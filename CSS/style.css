@@ -1,0 +1,121 @@
+/*Цвет основного текста  #757575;*/
+/*Вторичный цвет текста #212121;*/
+/*Основной цвет bgc  #FFFFFF;*/
+/*Вторичный цвет bgc #F5F4FA;*/
+/*Синий цвет (Accent) #2196F3;*/
+/*Белый цвет с прозрачностью #FFFFFF99;*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --white-transparent-color: rgba(255, 255, 255, 0,6);
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+    
+}
+/* Logo и footer-logo */
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.logo > span {
+    color: #000000;
+}
+.footer-logo {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.footer-logo > span {
+    color: #FFFFFF;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+
+/* Ссылки на тел и почту */
+.phone-link:focus,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+.phone-link:hover,
+.mail-link:hover {
+    color: var(--accent-color);
+}
+.phone-link,
+.mail-link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+/* Site-nav */
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Герой */
+.button.primary {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+
+/* Другорядные заголовки */
+
+.features-title,
+.about-title,
+.team-title,
+.team-name {
+    color: var(--title-text-color);
+}
+
+/* Главный заголовок */
+
+.hero-title {
+    color: #FFFFFF;
+    background-color:  #2F303A;
+}
+
+/* Наша команда */
+
+.team {
+    background-color: #F5F4FA;;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-mail,
+.footer-tel {
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+.footer-mail:focus,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+.footer-mail:hover,
+.footer-tel:hover {
+    color: var(--accent-color);
+}
