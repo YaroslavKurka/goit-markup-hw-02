@@ -5,6 +5,8 @@
 /*Синий цвет (Accent) #2196F3;*/
 /*Белый цвет с прозрачностью #FFFFFF99;*/
 
+
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -16,22 +18,34 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--white-color);
-    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3%;
 }
 /* Logo и footer-logo */
 .logo {
     color: var(--accent-color);
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
 }
 .logo > span {
     color: #000000;
+    font-family: 'Raleway', sans-serif;
 }
 .footer-logo {
     color: var(--accent-color);
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 .footer-logo > span {
     color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -69,13 +83,13 @@ ul {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-
-/* Герой */
-.button.primary {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
-    cursor: pointer;
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 2%;
 }
+
 
 
 /* Другорядные заголовки */
@@ -92,6 +106,23 @@ ul {
 .hero-title {
     color: #FFFFFF;
     background-color:  #2F303A;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 6%;
+    text-align: center;
+
+}
+
+/* Чем мы занимаемся */
+
+.about-title {
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+
 }
 
 /* Наша команда */
@@ -118,4 +149,49 @@ ul {
 .footer-mail:hover,
 .footer-tel:hover {
     color: var(--accent-color);
+}
+
+
+/* Button */
+
+.button.primary {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 6%;
+
+    height: 50px;
+    width: 200px;
+    left: 700px;
+    top: 430px;
+    border-radius: 4px;
+
+    
+
+}
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;;
+    cursor: pointer;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+
+/* Portfolio */
+.projects-title {
+    color: var(--title-text-color);
+    letter-spacing: 6%;
+}
+.link-projects {
+    text-decoration: none;
+}
+.projects-descr {
+    color: var(--primary-text-color);
 }
