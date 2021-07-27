@@ -172,6 +172,10 @@ ul {
     
 
 }
+.button.primary:hover,
+.button.primary:focus {
+    border-color: var(--accent-color);
+}
 .button.secondary {
     color: var(--title-text-color);
     background-color: #F5F4FA;;
