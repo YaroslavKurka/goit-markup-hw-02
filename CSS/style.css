@@ -29,7 +29,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-style: 700;
     font-size: 26px;
-    line-height: 1;
+    line-height: 1.2;
 
 }
 .logo > span {
@@ -42,7 +42,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-style: 700;
     font-size: 26px;
-    line-height: 1;
+    line-height: 1.2;
 }
 .footer-logo > span {
     color: #FFFFFF;
@@ -69,7 +69,15 @@ ul {
 .mail-link {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 2;
+    text-align: left;
+
 }
+
+
 /* Site-nav */
 .site-nav .link.current {
     color: var(--accent-color);
@@ -87,9 +95,10 @@ ul {
 .site-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.14;
     letter-spacing: 2%;
 }
+
 
 
 
@@ -114,11 +123,30 @@ ul {
     background-color:  #2F303A;
     font-size: 44px;
     font-weight: 900;
-    line-height: 1;
+    line-height: 1.36;
     letter-spacing: 6%;
     text-align: center;
 
 }
+
+
+/* Особенности */
+.features-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: left;
+
+}
+
+.features-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    text-align: left;
+
+}
+
 
 /* Чем мы занимаемся */
 
@@ -126,7 +154,7 @@ ul {
 
     font-size: 36px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.16;
     text-align: center;
 
 }
@@ -140,20 +168,20 @@ ul {
 .team-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.16;
     text-align: center;
 
 }
 .team-name {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.12;
     text-align: center;
 }
 .name-descr {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.12;
     text-align: center;
     
 }
@@ -167,6 +195,12 @@ ul {
 .footer-tel {
     color: #FFFFFF99;
     text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    text-align: left;
+
 }
 .footer-mail:focus,
 .footer-tel:focus {
@@ -176,9 +210,17 @@ ul {
 .footer-tel:hover {
     color: var(--accent-color);
 }
+.address-physical {
+    color: #FFFFFF;
 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    text-align: left;
 
-/* Button */
+}
+
+/* Buttons */
 
 .button.primary {
     color: #FFFFFF;
@@ -186,7 +228,7 @@ ul {
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    line-height: 2.0;
+    line-height: 1.87;
     letter-spacing: 6%;
     
     height: 50px;
@@ -208,7 +250,7 @@ ul {
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
-    line-height: 2.0;
+    line-height: 1.62;
     text-align: center;
 
 }
@@ -219,8 +261,13 @@ ul {
 }
 
 
+
+
+
+
+
 /* Portfolio */
-.projects-title {
+.project-title {
     color: var(--title-text-color);
     font-family: Roboto;
     font-size: 18px;
@@ -229,14 +276,14 @@ ul {
     text-align: left;
     letter-spacing: 6%;
 }
-.link-projects {
+.link-project {
     text-decoration: none;
 }
-.projects-descr {
+.project-descr {
     color: var(--primary-text-color);
     font-size: 16px;
     font-weight: 400;
-    line-height: 2.0;
+    line-height: 1.87;
     text-align: left;
     
 
